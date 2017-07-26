@@ -185,7 +185,7 @@ public class RhbTest {
 		System.out.println("Click on ShareTrading");
 		System.out.println("we are doing continuous integration");
 
-		System.out.println("we are doing continuous integration");
+		//System.out.println("we are doing continuous integration");
 
 	}
 
