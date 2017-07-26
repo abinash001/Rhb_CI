@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9276" started-at="2017-07-25T15:14:47Z" finished-at="2017-07-25T15:14:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9276" started-at="2017-07-25T15:14:47Z" finished-at="2017-07-25T15:14:56Z">
+      <class name="rhb.RhbTest">
+        <test-method status="FAIL" signature="launchChrome()[pri:0, instance:rhb.RhbTest@1ee392b]" name="launchChrome" is-config="true" duration-ms="0" started-at="2017-07-25T20:44:47Z" finished-at="2017-07-25T20:44:47Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[A new session could not be created. (Original error: spawn OK) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.73 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '01HW534850', ip: '10.18.11.81', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: spawn OK) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.73 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '01HW534850', ip: '10.18.11.81', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:156)
+	at rhb.RhbTest.launchChrome(RhbTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="SKIP" signature="launchApplication()[pri:1, instance:rhb.RhbTest@1ee392b]" name="launchApplication" duration-ms="6" started-at="2017-07-25T20:44:56Z" finished-at="2017-07-25T20:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="SKIP" signature="homeLoanCalculator()[pri:2, instance:rhb.RhbTest@1ee392b]" name="homeLoanCalculator" duration-ms="1" started-at="2017-07-25T20:44:56Z" finished-at="2017-07-25T20:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanCalculator -->
+        <test-method status="SKIP" signature="homeAffordabilityCalculator()[pri:3, instance:rhb.RhbTest@1ee392b]" name="homeAffordabilityCalculator" duration-ms="1" started-at="2017-07-25T20:44:56Z" finished-at="2017-07-25T20:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeAffordabilityCalculator -->
+        <test-method status="SKIP" signature="investment()[pri:4, instance:rhb.RhbTest@1ee392b]" name="investment" duration-ms="1" started-at="2017-07-25T20:44:56Z" finished-at="2017-07-25T20:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- investment -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:rhb.RhbTest@1ee392b]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-25T20:44:56Z" finished-at="2017-07-25T20:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rhb.RhbTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
