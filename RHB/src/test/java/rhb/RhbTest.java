@@ -182,6 +182,8 @@ public class RhbTest {
 				"//a[@id='rhbheaderplaceholder_0_menuListView_menuListView2_2_menuListView3_0_menuListView4_14_menuLink4_0']")
 				.click();
 		System.out.println("Click on ShareTrading");
+		System.out.println("Click on ShareTrading");
+
 	}
 
 	@AfterClass
