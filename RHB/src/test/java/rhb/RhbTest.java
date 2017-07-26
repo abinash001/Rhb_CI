@@ -183,6 +183,8 @@ public class RhbTest {
 				.click();
 		System.out.println("Click on ShareTrading");
 		System.out.println("Click on ShareTrading");
+		System.out.println("Click on ShareTrading");
+
 
 	}
 
