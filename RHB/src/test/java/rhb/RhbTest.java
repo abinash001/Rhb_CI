@@ -43,7 +43,7 @@ public class RhbTest {
 	public void launchApplication() throws InterruptedException {
 
 		System.out.println("Application Launched");
-		//System.out.println("we are doing continuous integration");
+		System.out.println("we are doing continuous integration");
 	
 
 		Thread.sleep(3000);
